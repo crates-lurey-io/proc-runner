@@ -1,0 +1,15 @@
+[package]
+name = "proc-runner"
+description = "A pluggable, mockable process invocation abstraction for Rust"
+repository = "http://crates.lurey.io/proc-runner"
+license = "MIT"
+version = "0.1.0"
+edition = "2024"
+keywords = ["cli", "process"]
+categories = ["command-line-interface", "development-tools::testing", "os"]
+
+[lints.clippy]
+pedantic = "deny"
+
+[dependencies]
+proc-result = "0.2.0"
