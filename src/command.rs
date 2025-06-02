@@ -6,7 +6,7 @@ use std::{
 
 use crate::{Context, Stdio};
 
-/// Configures how to execute a process using a [`Runner`][`crate::Runner`].
+/// Configures how to execute a process using a [`crate::Runner`].
 #[derive(Clone, Debug)]
 pub struct Command {
     program: OsString,

@@ -47,7 +47,7 @@ pub trait Child {
     /// while the parent waits for the child to exit.
     ///
     /// By default, stdin, stdout and stderr are inherited from the parent. In order to capture the
-    /// output into this Result<Output> it is necessary to create new pipes between parent and
+    /// output into this `Result<Output>`` it is necessary to create new pipes between parent and
     /// child; see [`Stdio::Piped`][`crate::Stdio::Piped`].
     ///
     /// # Errors
